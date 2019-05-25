@@ -1,0 +1,77 @@
+body {
+    background-color: #1C2E3A;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+#goBack {
+    border: none;
+    background-color: transparent;
+    font-size: 30pt;
+    color: white;
+    position: absolute;
+    margin-left: -50%;
+    margin-top: -50px;
+}
+
+#goBack:hover {
+    color: #A9A9A9;
+}
+
+#mainHeader {
+    text-align: left;
+    font-size: 50pt;
+    width: 80%;
+    margin-block-end: 1.6em;
+    padding: 0px;
+    margin-top: 0;
+    letter-spacing: 0.2em;
+}
+
+img.ProfileIcon {
+    width: 15%;
+    height: 20%;
+    float: left;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-right: 50px; 
+    margin-top: 0px;
+}
+
+#time {
+    float: right;
+    font-size: 20pt;
+}
+
+.alignText {
+    padding: 20px 30px 0px 30px;
+    text-align: justify;
+    line-height: 35pt;
+}
+
+
+img.bioImage {
+    width: 50%;
+    height: 25%;
+}
+
+#bioImageRight {
+    float: right;
+    padding: 30px 10px 10px 60px;
+}
+
+#bioImageLeft {
+    float: left;
+    padding: 30px 60px 0px 10px;
+}
+
+@media(max-width: 971px) {
+    #mainHeader {
+        font-size: 19pt;
+    }
+
+    #time {
+        font-size: 13pt;
+    }
+}

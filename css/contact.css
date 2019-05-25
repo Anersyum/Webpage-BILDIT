@@ -1,0 +1,76 @@
+body {
+    background-color: #1C2E3A;
+    color: white;
+    font-family: "Times New Roman", cursive;
+    font-size: 16pt;
+}
+
+#time {
+    float: right;
+    font-size: 20pt;
+}
+
+#goBack {
+    border: none;
+    background-color: transparent;
+    font-size: 30pt;
+    color: white;
+    position: absolute;
+    margin-top: -65px;
+}
+
+#goBack:hover {
+    color: #A9A9A9;
+}
+
+#mainHeader h1{
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+#inputSection {
+    box-sizing: border-box;
+    padding-left: 45%;
+}
+
+#inputSection input{
+    display: block;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+#inputSection textarea {
+    display: block;
+    margin-left: -105px;
+    width: 400px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+#inputSection label{ 
+    display: block;
+    padding: 10px 60px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-top: 4px;
+    border: none;
+    width: 60px;
+    height: 35px;
+    margin: 10px 60px;
+    box-sizing: border-box;
+}
+
+.button:active {
+    color: white;
+}
+
+.button:hover {
+    background-color: gray;
+}

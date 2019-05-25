@@ -1,0 +1,56 @@
+body {
+    background-color: #1C2E3A;
+    color: white;
+    font-family: "Times New Roman", cursive;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: 	#A9A9A9;
+}
+
+#musicPlayer {
+    text-align: center;
+}
+
+#time {  
+    font-size: 20pt;
+    margin-left: 85%;
+}
+
+#mainHeader hr {
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+
+#mainFooter hr {
+    margin-top: 4.5%;
+}
+
+#navigation {
+    text-align: center;
+}
+
+#navigation li{
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+.instagram {
+    margin-bottom: 10px;
+}
+
+@media(max-width: 450px) {
+    #time {
+        font-size: 15pt;
+    }
+
+    body {
+        font-size: 13pt;
+    }
+}

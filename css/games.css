@@ -1,0 +1,243 @@
+body {
+    background-color: #1C2E3A;
+    color: white;
+    font-family: "Times New Roman", cursive;
+    font-size: 16pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+#goBack {
+    border: none;
+    background-color: transparent;
+    font-size: 30pt;
+    color: white;
+    position: absolute;
+}
+
+#goBack:hover {
+    color: #A9A9A9;
+}
+
+.personaDesc {
+    width: 30%;
+    line-height: 30pt;
+    text-align: justify;
+}
+
+.chronoDesc {
+    width: 30%;
+    margin-left: 34%;
+    margin-top: -265px;
+    line-height: 30pt;
+    text-align: justify;
+}
+
+.finalDesc {
+    width: 30%;
+    margin-left: 66%;
+    margin-top: -265px;
+    line-height: 30pt;
+    text-align: justify;
+}
+
+.personaHeader {
+    margin-bottom: -68px;
+    width: 400px;
+    text-align: center;
+}
+
+.chronoHeader {
+    margin-left: 34%;
+    width: 400px;
+    text-align: center;
+}
+
+.finalHeader {
+    margin-top: -68px;
+    margin-left: 66%;
+    width: 400px;
+    text-align: center;
+}
+
+iframe {
+    width: 300px;
+    height: 256px;
+}
+
+.persona {
+    margin-left: 35px;
+}
+
+.chronoTrigger {
+    margin-left: 150px;
+}
+
+.finalFantasy {
+    margin-left: 150px;
+}
+
+@media only screen and (max-width: 330px) {
+    iframe {
+        width: 80px;
+        height: 80px;
+    }
+
+    .persona {
+        margin-left: 0px;
+    }
+    
+    .chronoTrigger {
+        margin-left: 30px;
+    }
+    
+    .finalFantasy {
+        margin-left: 20px;
+    }
+
+    .personaHeader {
+        margin-bottom: -100px;
+        width: 100px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .chronoHeader {
+        margin-left: 34%;
+        width: 100px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .finalHeader {
+        margin-top: -95px;
+        margin-left: 69%;
+        width: 110px;
+        text-align: center;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 500px) {
+    iframe {
+        width: 100px;
+        height: 100px;
+    }
+
+    .persona {
+        margin-left: 0px;
+    }
+    
+    .chronoTrigger {
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    
+    .finalFantasy {
+        margin-left: 10px;
+    }
+
+    .personaHeader {
+        margin-bottom: -120px;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .chronoHeader {
+        margin-left: 34%;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .finalHeader {
+        margin-top: -104px;
+        margin-left: 69%;
+        width: 110px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+
+    .persona {
+        margin-left: 20px;
+    }
+    
+    .chronoTrigger {
+        margin-left: 40px;
+    }
+    
+    .finalFantasy {
+        margin-left: 60px;
+    }
+
+    .personaHeader {
+        margin-bottom: -57px;
+        width: 230px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .chronoHeader {
+        margin-left: 34%;
+        width: 230px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .finalHeader {
+        margin-top: -57px;
+        margin-left: 69%;
+        width: 230px;
+        text-align: center;
+        font-size: 20pt;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+
+    .persona {
+        margin-left: 20px;
+    }
+    
+    .chronoTrigger {
+        margin-left: 140px;
+    }
+    
+    .finalFantasy {
+        margin-left: 140px;
+    }
+
+    .personaHeader {
+        margin-bottom: -57px;
+        width: 300px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .chronoHeader {
+        margin-left: 34%;
+        width: 300px;
+        text-align: center;
+        font-size: 20pt;
+    }
+    
+    .finalHeader {
+        margin-top: -57px;
+        margin-left: 69%;
+        width: 300px;
+        text-align: center;
+        font-size: 20pt;
+    }
+}

@@ -1,0 +1,34 @@
+        <link href="./css/games.css" type="text/css" rel="stylesheet" />
+        <header>
+            <h1>Games</h1>
+            <hr />
+        </header>
+        <section id="descriptionText">
+            <h2 class="personaHeader">Persona 4 Golden</h2>
+            <h2 class="chronoHeader">Chrono Trigger</h2>
+            <h2 class="finalHeader">Final Fantasy 6</h2>
+            <p>
+                <p class="personaDesc">
+                    When it comes to games I love RPGs, JRPGs in particular. My favourite game to date is Persona 4
+                    Golden
+                    because it resembles an anime, and I love anime. You're a student by day and fight demons by night,
+                    how cool is that?
+                </p>
+                <p class="chronoDesc">
+                    Chrono Trigger is my second favourite game. Time travel is done so good in this game as well as
+                    the combat system. The story is also really good and the fact that it has multiple endings gets
+                    you to play through it multiple times.
+                </p>
+                <p class="finalDesc">
+                    Also one of my favourites is Final Fantasy 6. In fact, I love the whole Final Fantasy franchise.
+                    Final Fantasy 6 has a memorable villian named Kefka. Without giving anything away in the story,
+                    I'll just say that the story is great, as are the characters!
+                </p>
+            </p>
+        </section>
+        <iframe class="persona" src="https://www.youtube.com/embed/FNnCby2_B6s" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="chronoTrigger" src="https://www.youtube.com/embed/vVl6Ue9r-Oo" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="finalFantasy" src="https://www.youtube.com/embed/j_lr12kgGeU" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,15 @@
+<link href="./css/contact.css" type="text/css" rel="stylesheet" />
+        <header id="mainHeader">
+            <h1>Contact me via E-mail</h1>
+        </header>
+
+        <section id="inputSection">
+            <label>Name</label>
+            <input type="text" placeholder="Enter your full name" />
+            <label>E-mail</label>
+            <input type="text" placeholder="Enter your E-mail" />
+            <label>Message</label>
+            <textarea placeholder="Write your message here"></textarea>
+            <input type="button" value="Send" class="button">
+        </section>
+        <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>

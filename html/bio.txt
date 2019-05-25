@@ -1,0 +1,25 @@
+<link href="./css/bio.css" type="text/css" rel="stylesheet" />
+        <img srcset="./img/profile.jpg" class="ProfileIcon" alt="ProfilePic" />
+            <header>
+                <h1 id="mainHeader">ᙖIOᘜᖇᗩᑭᕼY</h1>
+            </header>
+            <p>
+                <img src="./img/programming.jpg" class="bioImage" id="bioImageRight" alt="programming" rel="internal" />
+                <section class="alignText">
+                    Amor Osmić, born 18.12.1995 in Leonberg, Germany, is a 23 year old who loves computers,
+                    games, anime and programming. Went to Peta osnovna škola Brčko, he was a good student.
+                    In highschool he went to Elektrotehnika i Računarstvo class and finished that. His *maturski rad*
+                    was a program that would let people take driving tests and note their success in a sql database.
+                </section>
+            </p>
+            <p>
+                <img src="./img/anime.jpeg" class="bioImage" id="bioImageLeft" alt="anime" rel="internal" />
+                <section class="alignText">
+                    The program was programed in Visual Basic 6.0. After highschool
+                    he enrolled in Univerzitet u Tuzli, taking up Tehnički odgoj i informatika classes.
+                    Now in his fourth and final year at the Univerzitet u Tuzli, he has two exams left and
+                    is enrolled at BILD-IT, a free course about programming. He hopes of being a software developer one
+                    day.
+                </section>
+            </p>
+            <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>

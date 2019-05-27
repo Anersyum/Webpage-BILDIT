@@ -13,3 +13,25 @@ header {
 li {
     margin-top: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover {
+    color: 	#A9A9A9;
+}
+
+#goBack {
+    border: none;
+    background-color: transparent;
+    font-size: 30pt;
+    color: white;
+    position: absolute;
+    margin-top: -65px;
+}
+
+#goBack:hover {
+    color: #A9A9A9;
+}

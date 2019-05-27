@@ -73,7 +73,7 @@ const indexPageHtml = `
     <nav id="navigation">
         <ul>
             <li>
-                Projects
+                <a href="#" rel="internal" onclick="loadProject()">Projects</a>
             </li>
             <li>
                 Music
@@ -125,9 +125,69 @@ const contactPageHtml = button + `
         <input type="button" value="Send" class="button">
     </section>
     <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>`;
+
+const projectsHtml = `
+    <link href="./css/projects.css" type="text/css" rel="stylesheet" />
+    <header>
+        <h1>Projects</h1>
+        <hr />
+    </header>
+
+    <main>
+        <section id="intro">
+            Most projects that I made started more as something I wanted to experiment with.
+            I tried to experiment with different technologies using them in different projects. For example,
+            I learned Ruby beacuse I wanted to try RPG Maker VX Ace. Learned basic C# so I could do unity.
+            Ofcourse there are projects that I've done as part of BILD-IT. Those were written in Java.
+            Here is a list of some projects (as well as their description and how far I've gotten with them):
+        </section>
+        <section id="projects">
+            <ul>
+                <li>
+                    Driving school (done in visual basic 6, completed) - this project was done while I was in
+                    highschool
+                </li>
+                <li>
+                    Some game mechanics in RPG Maker VX Ace (done in ruby, completed but lost when my HDD crashed)
+                </li>
+                <li>
+                    No Name (done in Unity using C#, working on it) - in this game you fly a ship through the galaxy
+                    and
+                    fight other ships
+                    and creatures as you fly. The other part of the game is a 2D platformer/shooter where you
+                    collect
+                    parts for your ship,
+                    so that you can make your ship stronger.
+                </li>
+                <li>
+                    <a href="https://github.com/Anersyum/30DaysJSChallange" rel="external" referrerpolicy="no-referer" target="_blank">
+                        30 days of Javascript (done in Javascript, working on it) - done one project thus far
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Anersyum/theOdinProjectJS" rel="external" referrerpolicy="no-referer" target="_blank">
+                        The Odin project (done in Javascript, working on it) - my first dive into front-end
+                        technologies. Done two projects thus far
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Anersyum/ATM-LibraryBILDIT" rel="external" referrerpolicy="no-referer" target="_blank">
+                        ATM and library projects (done in java, simple stuff completed) - learned the hard way why
+                        you
+                        shouldn't put two projects into one repository
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>`;
+
             
 function loadBio() {
     mainPagePart.innerHTML = button + bioPageHtml;
+}
+
+function loadProject() {
+    mainPagePart.innerHTML = button + projectsHtml;
 }
 
 function goBack() {

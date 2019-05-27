@@ -8,6 +8,7 @@ body {
 
 header {
     text-align: center;
+    margin-top: -60px;
 }
 
 li {
@@ -29,7 +30,7 @@ a:hover {
     font-size: 30pt;
     color: white;
     position: absolute;
-    margin-top: -65px;
+    margin-top: -35px;
 }
 
 #goBack:hover {

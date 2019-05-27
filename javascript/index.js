@@ -107,6 +107,12 @@ const indexPageHtml = `
                 Facebook
             </a>
         </div>
+        <div class="github">
+                <a href="https://github.com/Anersyum" rel="external" referrerpolicy="no-referer" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                    Github
+                </a>
+            </div>
     </footer>`;
 
 const contactPageHtml = button + `

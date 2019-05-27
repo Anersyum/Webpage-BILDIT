@@ -73,7 +73,7 @@ const indexPageHtml = `
     <nav id="navigation">
         <ul>
             <li>
-                <a href="#" rel="internal" onclick="loadProject()">Projects</a>
+                <a href="#" rel="internal" onclick="loadPage(projectsHtml)">Projects</a>
             </li>
             <li>
                 Music
@@ -85,10 +85,10 @@ const indexPageHtml = `
                 Hobbies
             </li>
             <li>
-                <a href="#" rel="internal" onclick="loadBio()">Bio</a>
+                <a href="#" rel="internal" onclick="loadPage(bioPageHtml)">Bio</a>
             </li>
             <li>
-                <a href="#" rel="internal" onclick="loadContact()">Contact</a>
+                <a href="#" rel="internal" onclick="loadPage(contactPageHtml)">Contact</a>
             </li>
         </ul>
     </nav>
@@ -188,12 +188,8 @@ const projectsHtml = `
     </main>`;
 
             
-function loadBio() {
-    mainPagePart.innerHTML = button + bioPageHtml;
-}
-
-function loadProject() {
-    mainPagePart.innerHTML = button + projectsHtml;
+function loadPage(page) {
+    mainPagePart.innerHTML = button + page;
 }
 
 function goBack() {
@@ -210,11 +206,6 @@ function goBack() {
             musicPlayer.childNodes[1].play();
         }
     }
-}
-
-function loadContact() {
-
-        mainPagePart.innerHTML = contactPageHtml;
 }
 
 function loadGames() {

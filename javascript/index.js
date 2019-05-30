@@ -2,6 +2,7 @@
 let isMusicPlayerPaused;
 const mainPagePart = document.querySelector("#mainPagePart");
 const button = `<button id="goBack" onclick="goBack()">${"\u2b05"}</button>`;
+
 const gamesPageHtml = `
     <link href="./css/games.css" type="text/css" rel="stylesheet" />
     <header>
@@ -122,15 +123,16 @@ const contactPageHtml = button + `
     </header>
 
     <section id="inputSection">
-        <label>Name</label>
-        <input type="text" placeholder="Enter your full name" />
-        <label>E-mail</label>
-        <input type="text" placeholder="Enter your E-mail" />
+        <label>First name</label>
+        <input id="firstName" type="text" placeholder="Enter your first name" />
+        <label>Last name</label>
+        <input type="text" id="lastName" placeholder="Enter your last name" />
         <label>Message</label>
-        <textarea placeholder="Write your message here"></textarea>
-        <input type="button" value="Send" class="button">
+        <textarea id="textToSend" placeholder="Write your message here"></textarea>
+        <input type="button" value="Send" class="button" onclick="sendMail()">
     </section>
-    <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>`;
+    <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>
+    `;
 
 const projectsHtml = `
     <link href="./css/projects.css" type="text/css" rel="stylesheet" />
@@ -219,4 +221,13 @@ function loadGames() {
     mainPagePart.innerHTML = button + gamesPageHtml;
 }
 
+function sendMail() {
 
+    let mailText = document.querySelector("#textToSend").value;
+    let firstName = document.querySelector("#firstName").value;
+    let lastName = document.querySelector("#lastName").value;
+    let name = firstName + " " + lastName;
+    let subjectText = `Contact from ${name}`;
+
+    window.location.href = `mailto:amorosmic@gmx.com?subject=${subjectText}&body=${mailText}`;
+}

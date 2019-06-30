@@ -13,7 +13,7 @@ const gamesPageHtml = `
         <h2 class="personaHeader">Persona 4 Golden</h2>
         <h2 class="chronoHeader">Chrono Trigger</h2>
         <h2 class="finalHeader">Final Fantasy 6</h2>
-        <p>
+        
             <p class="personaDesc">
                 When it comes to games I love RPGs, JRPGs in particular. My favourite game to date is Persona 4
                 Golden
@@ -30,7 +30,7 @@ const gamesPageHtml = `
                 Final Fantasy 6 has a memorable villian named Kefka. Without giving anything away in the story,
                 I'll just say that the story is great, as are the characters!
             </p>
-        </p>
+        
     </section>
     <iframe class="persona" src="https://www.youtube.com/embed/FNnCby2_B6s" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,31 +40,32 @@ const gamesPageHtml = `
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
 const bioPageHtml = `
-    <link href="./css/bio.css" type="text/css" rel="stylesheet" />
-    <img srcset="./img/profile.jpg" class="ProfileIcon" alt="ProfilePic" />
-        <header>
-            <h1 id="mainHeader">ᙖIOᘜᖇᗩᑭᕼY</h1>
-        </header>
-        <p>
-            <img src="./img/programming.jpg" class="bioImage" id="bioImageRight" alt="programming" rel="internal" />
-            <section class="alignText">
-                Amor Osmić, born 18.12.1995 in Leonberg, Germany, is a 23 year old who loves computers,
-                games, anime and programming. Went to Peta osnovna škola Brčko, he was a good student.
-                In highschool he went to Elektrotehnika i Računarstvo class and finished that. His *maturski rad*
-                was a program that would let people take driving tests and note their success in a sql database.
-            </section>
-        </p>
-        <p>
-            <img src="./img/anime.jpeg" class="bioImage" id="bioImageLeft" alt="anime" rel="internal" />
-            <section class="alignText">
-                The program was programed in Visual Basic 6.0. After highschool
-                he enrolled in Univerzitet u Tuzli, taking up Tehnički odgoj i informatika classes.
-                Now in his fourth and final year at the Univerzitet u Tuzli, he has two exams left and
-                is enrolled at BILD-IT, a free course about programming. He hopes of being a software developer one
-                day.
-            </section>
-        </p>
-        <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>`;
+<link href="./css/bio.css" type="text/css" rel="stylesheet" />
+<img srcset="./img/profile.jpg" class="ProfileIcon" alt="ProfilePic" />
+    <header>
+        <h1 id="mainHeader">Biography</h1>
+    </header>
+    <p>
+        <img src="./img/programming.jpg" class="bioImage" id="bioImageRight" alt="programming" rel="internal" />
+        <section class="alignText">
+            My name is Amor Osmić, I was born 18.12.1995 in Leonberg, Germany. I'm a 23 year old who loves computers,
+            games, anime and programming. The music I like is rock and roll. I went to Fifth elementary school, Brčko,
+             where I had my first experience with programming. After elementary school, I enrolled at Technical school,
+              IT technician. My graduation work was a program that would let people take driving tests and note their success. 
+        </section>
+    </p>
+    <p>
+        <img src="./img/anime.jpeg" class="bioImage" id="bioImageLeft" alt="anime" rel="internal" />
+        <section class="alignText">
+            The program was made in Visual Basic 6.0, using SQL as a database. After highschool
+            I enrolled at University of Tuzla, Technical education and informatics. As part of 
+            Technical education and informatics, I did some small programming projects. Playing guitar
+            was also something I enjoyed but gave up playing it after a few years. Now in my fourth and final
+             year at the University of Tuzla, I have two exams left. I was an intern at BILD-IT for six months.
+            My love for programming and computers gives me hope that one day I will work as a software developer. 
+        </section>
+    </p>
+    <script src="./javascript/index.js" type="text/javascript" rel="javascript"></script>`;
 
 const indexPageHtml = `
     <header id="mainHeader">
@@ -77,13 +78,7 @@ const indexPageHtml = `
                 <a href="#" rel="internal" onclick="loadPage(projectsHtml)">Projects</a>
             </li>
             <li>
-                Music
-            </li>
-            <li>
                 <a href="#" rel="internal" onclick="loadGames()">Games</a>
-            </li>
-            <li>
-                Hobbies
             </li>
             <li>
                 <a href="#" rel="internal" onclick="loadPage(bioPageHtml)">Bio</a>
@@ -152,14 +147,14 @@ const projectsHtml = `
         <section id="projects">
             <ul>
                 <li>
-                    Driving school (done in visual basic 6, completed) - this project was done while I was in
+                    Driving school (made with Visual Basic 6 and SQL, completed) - this project was done while I was in
                     highschool
                 </li>
                 <li>
-                    Some game mechanics in RPG Maker VX Ace (done in ruby, completed but lost when my HDD crashed)
+                    Some game mechanics in RPG Maker VX Ace (made in Ruby, completed but lost when my HDD crashed)
                 </li>
                 <li>
-                    No Name (done in Unity using C#, working on it) - in this game you fly a ship through the galaxy
+                    No Name (made with Unity using C#, working on it) - in this game you fly a ship through the galaxy
                     and
                     fight other ships
                     and creatures as you fly. The other part of the game is a 2D platformer/shooter where you
@@ -169,20 +164,23 @@ const projectsHtml = `
                 </li>
                 <li>
                     <a href="https://github.com/Anersyum/30DaysJSChallange" rel="external" referrerpolicy="no-referer" target="_blank">
-                        30 days of Javascript (done in Javascript, working on it) - done one project thus far
+                        30 days of Javascript (made with Javascript, working on it) - done two projects thus far
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/Anersyum/theOdinProjectJS" rel="external" referrerpolicy="no-referer" target="_blank">
-                        The Odin project (done in Javascript, working on it) - my first dive into front-end
-                        technologies. Done two projects thus far
+                    <a href="https://github.com/Anersyum/TicTacToe" rel="external" referrerpolicy="no-referer" target="_blank">
+                        Tic Tac Toe (made with Javascript, HTML and CSS, working on it) - a basic tic tac toe game.
                     </a>
                 </li>
                 <li>
                     <a href="https://github.com/Anersyum/ATM-LibraryBILDIT" rel="external" referrerpolicy="no-referer" target="_blank">
-                        ATM and library projects (done in java, simple stuff completed) - learned the hard way why
-                        you
-                        shouldn't put two projects into one repository
+                        ATM and library projects (made with java, simple stuff completed) - learned the hard way why
+                        you shouldn't put two projects into one repository
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Anersyum/To-do_list" rel="external" referrerpolicy="no-referer" target="_blank">
+                        To do list (made with Java, completed) - a simple to do list console app. Done as part of BILD-IT homework.
                     </a>
                 </li>
             </ul>

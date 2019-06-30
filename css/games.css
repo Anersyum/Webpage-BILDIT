@@ -25,20 +25,22 @@ h1 {
     width: 30%;
     line-height: 30pt;
     text-align: justify;
+    position: absolute;
 }
 
 .chronoDesc {
     width: 30%;
     margin-left: 34%;
-    margin-top: -265px;
+    margin-top: 23px;
     line-height: 30pt;
     text-align: justify;
+    position: absolute;
 }
 
 .finalDesc {
     width: 30%;
     margin-left: 68%;
-    margin-top: -265px;
+    margin-top: 45px;
     line-height: 30pt;
     text-align: justify;
 }
@@ -133,6 +135,7 @@ iframe {
     .chronoTrigger {
         margin-left: 20px;
         margin-right: 0px;
+        margin-top: -20%;
     }
     
     .finalFantasy {

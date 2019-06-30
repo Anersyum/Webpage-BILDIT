@@ -1,2 +1,2 @@
-# Webpage-BILDIT
-A simple webpage I built for homework
+# MyWebpage
+A simple webpage I built for learning HTML, CSS and Javascript.
